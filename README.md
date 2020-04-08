@@ -8,7 +8,7 @@ Reliable Mechanism for Emergency Vehicle to <b>avoid getting stuck in Traffic Ja
 
 ## Schematic of the System 
 <br>
-<img src ="Schematics Traffic Light Control System.png" alt"#" width="800px" height="400px">
+<img src ="Schematic Traffic Light Control System.png" alt"Schematic Traffic Light Control System.png" width="800px" height="400px">
 <br>
 
 ## Final Product
