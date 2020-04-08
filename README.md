@@ -12,4 +12,4 @@ Reliable Mechanism for Emergency Vehicle to <b>avoid getting stuck in Traffic Ja
 <br>
 
 ## Final Product
-<img src ="Traffic Light Control.png" alt="#" width="800px" height="400px">
+<img src ="Traffic Light Control.png" alt="#" width="800px" height="200px">
