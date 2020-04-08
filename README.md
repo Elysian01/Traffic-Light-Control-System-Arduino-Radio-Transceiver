@@ -4,6 +4,8 @@ Reliable Mechanism for Emergency Vehicle to <b>avoid getting stuck in Traffic Ja
 ### A Transmitter is fitted on the emergency vehicle , the only thing which driver has to do is turn on the switch which will make the signal green and then the driver can reach his destination quicker
 
 <br>
+<img src ="Transmitter.png" alt="#" width="600px" height="600px">
+
 ## Schematic of the System 
 <br>
 <img src ="Schematic Traffic Light Control System.png" alt"#" width="800px" height="400px">
