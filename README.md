@@ -16,4 +16,4 @@
 ## Final Product
 <img src ="Traffic Light Control.png" alt="#" width="500px" height="500px">
 
-## Working Video Link :- <a href="https://youtu.be/PKtwjw7px-s"></a>
+## Working Video Link :- https://youtu.be/PKtwjw7px-s
