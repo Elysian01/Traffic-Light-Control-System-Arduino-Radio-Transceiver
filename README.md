@@ -1,4 +1,4 @@
-# Traffic-Light-Control
+# Traffic-Light-Control System Made using Arduino and Radio Frequency Trans receivers
 
 #### Reliable Mechanism for Emergency Vehicle to <b>avoid getting stuck in Traffic Jam</b> , thereby <b>saving time </b>
 <hr>
