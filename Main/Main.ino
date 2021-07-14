@@ -3,6 +3,7 @@
 #include <SPI.h> 
 #endif
 
+// Traffic Light System (mimicing and controlling 4 lanes light) and radio receiver
 
 
 // ( Speed, receving pin , Transmitting pin , push to talk)
@@ -58,7 +59,6 @@ void setup() {
   #else
   ;
   #endif
-
 }
 
 void loop() {
@@ -79,7 +79,8 @@ void loop() {
               digitalWrite(r2,1);digitalWrite(y2,0);digitalWrite(g2,0);
                 digitalWrite(r3,1);digitalWrite(y3,0);digitalWrite(g3,0);
                 digitalWrite(r4,1);digitalWrite(y4,0);digitalWrite(g4,0);
-                digitalWrite(r1,0);delay(lightGap);digitalWrite(y1,1);delay(lightGap);digitalWrite(y1,0);digitalWrite(g1,1);delay(eachlaneTime);
+                digitalWrite(r1,0);delay(lightGap);digitalWrite(y1,1);delay(lightGap);
+                digitalWrite(y1,0);digitalWrite(g1,1);delay(eachlaneTime);
                String check = Receiver();
               if (check != "Invalid Input") {break;}
 
@@ -87,21 +88,24 @@ void loop() {
                 digitalWrite(r1,1);digitalWrite(y1,0);digitalWrite(g1,0);
                 digitalWrite(r3,1);digitalWrite(y3,0);digitalWrite(g3,0);
                 digitalWrite(r4,1);digitalWrite(y4,0);digitalWrite(g4,0);
-                digitalWrite(r2,0);delay(lightGap);digitalWrite(y2,1);delay(lightGap);digitalWrite(y2,0);digitalWrite(g2,1);delay(eachlaneTime);
+                digitalWrite(r2,0);delay(lightGap);digitalWrite(y2,1);delay(lightGap);
+                digitalWrite(y2,0);digitalWrite(g2,1);delay(eachlaneTime);
                check = Receiver();
               if (check != "Invalid Input") {break;}
               
                 digitalWrite(r1,1);digitalWrite(y1,0);digitalWrite(g1,0);delay(100);
                 digitalWrite(r2,1);digitalWrite(y2,0);digitalWrite(g2,0);
                 digitalWrite(r4,1);digitalWrite(y4,0);digitalWrite(g4,0);
-                digitalWrite(r3,0);delay(lightGap);digitalWrite(y3,1);delay(lightGap);digitalWrite(y3,0);digitalWrite(g3,1);delay(eachlaneTime);
+                digitalWrite(r3,0);delay(lightGap);digitalWrite(y3,1);delay(lightGap);
+                digitalWrite(y3,0);digitalWrite(g3,1);delay(eachlaneTime);
                check = Receiver();
               if (check != "Invalid Input") {break;}
                        
                 digitalWrite(r1,1);digitalWrite(y1,0);digitalWrite(g1,0);
                 digitalWrite(r2,1);digitalWrite(y2,0);digitalWrite(g2,0);
                 digitalWrite(r3,1);digitalWrite(y3,0);digitalWrite(g3,0);
-                digitalWrite(r4,0);delay(lightGap);digitalWrite(y4,1);delay(lightGap);digitalWrite(y4,0);digitalWrite(g4,1);delay(eachlaneTime);
+                digitalWrite(r4,0);delay(lightGap);digitalWrite(y4,1);delay(lightGap);
+                digitalWrite(y4,0);digitalWrite(g4,1);delay(eachlaneTime);
                check = Receiver();
               if (check != "Invalid Input") {break;}
               
