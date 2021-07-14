@@ -8,6 +8,10 @@
 <br>
 <img src ="Transmitter.png" alt="#" width="800px" height="550px">
 
+As we can observe, there are 2 major components for smart traffic light system, and it requires 2 arduino models
+1. Arduino Mega: Responsible for traffic light system and receiving radio signals => [Script](Main/Main.ino)
+2. Arduino Pro Micro: Responsible for sending radio signals => [Script](Main/Transmitter.ino)
+
 ## Schematic of the System 
 <br>
 <img src ="Schematic Traffic Light Control System.png" alt"Schematic Traffic Light Control System.png" width="800px" height="400px">
